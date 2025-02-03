@@ -82,8 +82,21 @@ nav .social-icons a:hover{
     text-align: center;
     margin: 5px 0px 0px 5px;
     width: 100%;
-    background-color: rgb(227, 241, 236);
-    height: fit-content;
+    background: linear-gradient(to right, #3cb0ef, #5788cd);
+    height: 100%;
+    color: white;
+}
+.Home h3{
+    
+    font-style: italic;
+    font-weight: lighter;
+   
+}
+.Home .name{
+    display: flex;
+    padding-left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 .About{
     text-align: center;
@@ -131,6 +144,13 @@ nav .social-icons a:hover{
     nav .social-icons{
        margin: 5px;
     
+    }
+    .Home .name{
+        display: flex;
+        padding-left: 50%;
+        font-family: time;
+        font-size: 30px;
+        align-items: center;
     }
    
 
