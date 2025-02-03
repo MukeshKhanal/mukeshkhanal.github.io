@@ -79,21 +79,28 @@ nav .social-icons a:hover{
       
 }
 .Home{
-    margin-top: 10px;
+    text-align: center;
+    margin: 5px 0px 0px 5px;
     width: 100%;
     background-color: rgb(227, 241, 236);
     height: fit-content;
 }
 .About{
+    text-align: center;
+    margin: 0px 0px 0px 5px;
     background-color: rgb(139, 194, 175);
     height: fit-content;
 }
 .Projects{
+    text-align: center;
+    margin: 0px 0px 0px 5px;
     background-color: rgb(199, 171, 161);
     height:fit-content;
 
 }
 .Contact{
+    text-align: center;
+    margin: 0px 0px 0px 5px;
     background-color: beige;
     height: fit-content;
 }
@@ -114,7 +121,17 @@ nav .social-icons a:hover{
         gap: 10px;
         margin-left: 5px;
     }
-   
+    nav li a:hover{
+       text-decoration: underline; 
+       color: black;
+       background-color: white;
+        
+
+    }
+    nav .social-icons{
+       margin: 5px;
+    
+    }
    
 
 }
