@@ -228,6 +228,46 @@ nav .social-icons a:hover{
        margin: 5px;
     
     }
+    #greetings{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        transition: 0.3s ease-out;
+        font-size: 20px;
+    }
+    .callToaction button{
+    
+        height: 50px;
+        width: 150px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;    
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .callToaction button:hover{
+        background-color: #04AA6D; 
+        color: white;
+        box-shadow:1px 1px 10px rgb(214, 214, 214) ;
+        transform: scale(1.05);
+        
+    
+    }
+    
+    .Cv{
+         border: none;
+         background-color:white;
+         height: 30px;
+    }
+    .Con{
+       border: none;; 
+        
+       
+        
+    
+    }
    
    
 
